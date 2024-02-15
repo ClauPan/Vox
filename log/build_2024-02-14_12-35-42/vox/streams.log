@@ -1,0 +1,44 @@
+[1.037s] Invoking command in '/home/vox/Desktop/vox/build/vox': /usr/bin/cmake /home/vox/Desktop/vox/src -DCMAKE_INSTALL_PREFIX=/home/vox/Desktop/vox/install/vox
+[4.457s] -- The C compiler identification is GNU 11.4.0
+[7.308s] -- The CXX compiler identification is GNU 11.4.0
+[7.366s] -- Detecting C compiler ABI info
+[8.546s] -- Detecting C compiler ABI info - done
+[8.572s] -- Check for working C compiler: /usr/bin/cc - skipped
+[8.576s] -- Detecting C compile features
+[8.679s] -- Detecting C compile features - done
+[8.888s] -- Detecting CXX compiler ABI info
+[9.799s] -- Detecting CXX compiler ABI info - done
+[9.826s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[9.827s] -- Detecting CXX compile features
+[9.829s] -- Detecting CXX compile features - done
+[9.880s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[11.061s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[15.048s] -- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[15.391s] Error parsing '/home/vox/Desktop/vox/src/package.xml':
+[15.570s] Traceback (most recent call last):
+[15.570s]   File "/opt/ros/iron/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[15.571s]     main()
+[15.571s]   File "/opt/ros/iron/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[15.571s]     raise e
+[15.572s]   File "/opt/ros/iron/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[15.572s]     package = parse_package_string(
+[15.572s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[15.625s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[15.627s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/vox/Desktop/vox/src/package.xml':
+[15.629s] Error(s):
+[15.631s] - The manifest of package "vox" (with format version 3) must not contain the following tags: licence, maintainter
+[15.714s] [31mCMake Error at /opt/ros/iron/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[15.714s]   execute_process(/usr/bin/python3.10
+[15.715s]   /opt/ros/iron/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[15.715s]   /home/vox/Desktop/vox/src/package.xml
+[15.715s]   /home/vox/Desktop/vox/build/vox/ament_cmake_core/package.cmake) returned
+[15.716s]   error code 1
+[15.716s] Call Stack (most recent call first):
+[15.716s]   /opt/ros/iron/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[15.717s]   /opt/ros/iron/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[15.717s]   CMakeLists.txt:20 (ament_lint_auto_find_test_dependencies)
+[15.718s] 
+[15.718s] [0m
+[15.718s] -- Configuring incomplete, errors occurred!
+[15.719s] See also "/home/vox/Desktop/vox/build/vox/CMakeFiles/CMakeOutput.log".
+[15.732s] Invoked command in '/home/vox/Desktop/vox/build/vox' returned '1': /usr/bin/cmake /home/vox/Desktop/vox/src -DCMAKE_INSTALL_PREFIX=/home/vox/Desktop/vox/install/vox

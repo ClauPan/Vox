@@ -1,0 +1,2 @@
+Invoking command in '/home/vox/Desktop/vox/build/vox': /usr/bin/cmake /home/vox/Desktop/vox/src -DCMAKE_INSTALL_PREFIX=/home/vox/Desktop/vox/install/vox
+Invoked command in '/home/vox/Desktop/vox/build/vox' returned '1': /usr/bin/cmake /home/vox/Desktop/vox/src -DCMAKE_INSTALL_PREFIX=/home/vox/Desktop/vox/install/vox

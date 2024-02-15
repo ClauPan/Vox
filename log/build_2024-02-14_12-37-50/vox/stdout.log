@@ -1,0 +1,27 @@
+-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vox/Desktop/vox/build/vox
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/vox/Desktop/vox/install/vox/share/vox/config/empty.yaml
+-- Symlinking: /home/vox/Desktop/vox/install/vox/share/vox/description/robot.urdf.xacro
+-- Symlinking: /home/vox/Desktop/vox/install/vox/share/vox/launch/rso.launch.py
+-- Symlinking: /home/vox/Desktop/vox/install/vox/share/vox/worlds/empty.world
+-- Symlinking: /home/vox/Desktop/vox/install/vox/share/ament_index/resource_index/package_run_dependencies/vox
+-- Symlinking: /home/vox/Desktop/vox/install/vox/share/ament_index/resource_index/parent_prefix_path/vox
+-- Symlinking: /home/vox/Desktop/vox/install/vox/share/vox/environment/ament_prefix_path.sh
+-- Symlinking: /home/vox/Desktop/vox/install/vox/share/vox/environment/ament_prefix_path.dsv
+-- Symlinking: /home/vox/Desktop/vox/install/vox/share/vox/environment/path.sh
+-- Symlinking: /home/vox/Desktop/vox/install/vox/share/vox/environment/path.dsv
+-- Symlinking: /home/vox/Desktop/vox/install/vox/share/vox/local_setup.bash
+-- Symlinking: /home/vox/Desktop/vox/install/vox/share/vox/local_setup.sh
+-- Symlinking: /home/vox/Desktop/vox/install/vox/share/vox/local_setup.zsh
+-- Symlinking: /home/vox/Desktop/vox/install/vox/share/vox/local_setup.dsv
+-- Symlinking: /home/vox/Desktop/vox/install/vox/share/vox/package.dsv
+-- Symlinking: /home/vox/Desktop/vox/install/vox/share/ament_index/resource_index/packages/vox
+-- Symlinking: /home/vox/Desktop/vox/install/vox/share/vox/cmake/voxConfig.cmake
+-- Symlinking: /home/vox/Desktop/vox/install/vox/share/vox/cmake/voxConfig-version.cmake
+-- Symlinking: /home/vox/Desktop/vox/install/vox/share/vox/package.xml

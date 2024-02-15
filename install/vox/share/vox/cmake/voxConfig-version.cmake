@@ -1,0 +1,1 @@
+/home/vox/Desktop/vox/build/vox/ament_cmake_core/voxConfig-version.cmake

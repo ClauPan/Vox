@@ -1,0 +1,27 @@
+[0.360s] Invoking command in '/home/vox/Desktop/vox/build/vox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/vox/Desktop/vox/build/vox -- -j4 -l4
+[0.511s] Invoked command in '/home/vox/Desktop/vox/build/vox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/vox/Desktop/vox/build/vox -- -j4 -l4
+[0.674s] Invoking command in '/home/vox/Desktop/vox/build/vox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/vox/Desktop/vox/build/vox
+[0.701s] -- Install configuration: ""
+[0.702s] -- Execute custom install script
+[0.704s] -- Up-to-date symlink: /home/vox/Desktop/vox/install/vox/share/vox/config/empty.yaml
+[0.705s] -- Symlinking: /home/vox/Desktop/vox/install/vox/share/vox/description/colors.xacro
+[0.738s] -- Up-to-date symlink: /home/vox/Desktop/vox/install/vox/share/vox/description/robot.urdf.xacro
+[0.739s] -- Symlinking: /home/vox/Desktop/vox/install/vox/share/vox/description/robot_core.xacro
+[0.772s] -- Up-to-date symlink: /home/vox/Desktop/vox/install/vox/share/vox/launch/rsp.launch.py
+[0.773s] -- Up-to-date symlink: /home/vox/Desktop/vox/install/vox/share/vox/worlds/empty.world
+[0.774s] -- Up-to-date symlink: /home/vox/Desktop/vox/install/vox/share/ament_index/resource_index/package_run_dependencies/vox
+[0.775s] -- Up-to-date symlink: /home/vox/Desktop/vox/install/vox/share/ament_index/resource_index/parent_prefix_path/vox
+[0.776s] -- Up-to-date symlink: /home/vox/Desktop/vox/install/vox/share/vox/environment/ament_prefix_path.sh
+[0.777s] -- Up-to-date symlink: /home/vox/Desktop/vox/install/vox/share/vox/environment/ament_prefix_path.dsv
+[0.778s] -- Up-to-date symlink: /home/vox/Desktop/vox/install/vox/share/vox/environment/path.sh
+[0.779s] -- Up-to-date symlink: /home/vox/Desktop/vox/install/vox/share/vox/environment/path.dsv
+[0.780s] -- Up-to-date symlink: /home/vox/Desktop/vox/install/vox/share/vox/local_setup.bash
+[0.781s] -- Up-to-date symlink: /home/vox/Desktop/vox/install/vox/share/vox/local_setup.sh
+[0.783s] -- Up-to-date symlink: /home/vox/Desktop/vox/install/vox/share/vox/local_setup.zsh
+[0.784s] -- Up-to-date symlink: /home/vox/Desktop/vox/install/vox/share/vox/local_setup.dsv
+[0.784s] -- Symlinking: /home/vox/Desktop/vox/install/vox/share/vox/package.dsv
+[0.819s] -- Up-to-date symlink: /home/vox/Desktop/vox/install/vox/share/ament_index/resource_index/packages/vox
+[0.820s] -- Up-to-date symlink: /home/vox/Desktop/vox/install/vox/share/vox/cmake/voxConfig.cmake
+[0.821s] -- Up-to-date symlink: /home/vox/Desktop/vox/install/vox/share/vox/cmake/voxConfig-version.cmake
+[0.822s] -- Up-to-date symlink: /home/vox/Desktop/vox/install/vox/share/vox/package.xml
+[0.829s] Invoked command in '/home/vox/Desktop/vox/build/vox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/vox/Desktop/vox/build/vox
