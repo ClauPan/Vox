@@ -1,0 +1,55 @@
+[0.048s] Invoking command in '/home/claw/Desktop/Vox/build/vox': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/claw/Desktop/Vox/src -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/claw/Desktop/Vox/install/vox
+[0.173s] -- The C compiler identification is GNU 11.4.0
+[0.263s] -- The CXX compiler identification is GNU 11.4.0
+[0.273s] -- Detecting C compiler ABI info
+[0.341s] -- Detecting C compiler ABI info - done
+[0.347s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.348s] -- Detecting C compile features
+[0.348s] -- Detecting C compile features - done
+[0.351s] -- Detecting CXX compiler ABI info
+[0.425s] -- Detecting CXX compiler ABI info - done
+[0.430s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.430s] -- Detecting CXX compile features
+[0.430s] -- Detecting CXX compile features - done
+[0.434s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.573s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.625s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.656s] -- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[0.717s] -- Configuring done
+[0.719s] -- Generating done
+[0.720s] -- Build files have been written to: /home/claw/Desktop/Vox/build/vox
+[0.724s] Invoked command in '/home/claw/Desktop/Vox/build/vox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/claw/Desktop/Vox/src -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/claw/Desktop/Vox/install/vox
+[0.726s] Invoking command in '/home/claw/Desktop/Vox/build/vox': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/claw/Desktop/Vox/build/vox -- -j12 -l12
+[0.765s] Invoked command in '/home/claw/Desktop/Vox/build/vox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/claw/Desktop/Vox/build/vox -- -j12 -l12
+[0.797s] Invoking command in '/home/claw/Desktop/Vox/build/vox': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/claw/Desktop/Vox/build/vox
+[0.805s] -- Install configuration: ""
+[0.805s] -- Execute custom install script
+[0.805s] -- Symlinking: /home/claw/Desktop/Vox/install/vox/share/vox/config/empty.yaml
+[0.816s] -- Symlinking: /home/claw/Desktop/Vox/install/vox/share/vox/config/my_controllers.yaml
+[0.823s] -- Symlinking: /home/claw/Desktop/Vox/install/vox/share/vox/config/x.rviz
+[0.831s] -- Symlinking: /home/claw/Desktop/Vox/install/vox/share/vox/description/camera.xacro
+[0.841s] -- Symlinking: /home/claw/Desktop/Vox/install/vox/share/vox/description/colors.xacro
+[0.852s] -- Symlinking: /home/claw/Desktop/Vox/install/vox/share/vox/description/gazebo_controls.xacro
+[0.860s] -- Symlinking: /home/claw/Desktop/Vox/install/vox/share/vox/description/laser.xacro
+[0.867s] -- Symlinking: /home/claw/Desktop/Vox/install/vox/share/vox/description/robot.urdf.xacro
+[0.878s] -- Symlinking: /home/claw/Desktop/Vox/install/vox/share/vox/description/robot_core.xacro
+[0.887s] -- Symlinking: /home/claw/Desktop/Vox/install/vox/share/vox/description/ros2_control.xacro
+[0.894s] -- Symlinking: /home/claw/Desktop/Vox/install/vox/share/vox/launch/launch_sim.launch.py
+[0.903s] -- Symlinking: /home/claw/Desktop/Vox/install/vox/share/vox/launch/rsp.launch.py
+[0.913s] -- Symlinking: /home/claw/Desktop/Vox/install/vox/share/vox/worlds/empty.world
+[0.921s] -- Symlinking: /home/claw/Desktop/Vox/install/vox/share/ament_index/resource_index/package_run_dependencies/vox
+[0.930s] -- Symlinking: /home/claw/Desktop/Vox/install/vox/share/ament_index/resource_index/parent_prefix_path/vox
+[0.940s] -- Symlinking: /home/claw/Desktop/Vox/install/vox/share/vox/environment/ament_prefix_path.sh
+[0.950s] -- Symlinking: /home/claw/Desktop/Vox/install/vox/share/vox/environment/ament_prefix_path.dsv
+[0.958s] -- Symlinking: /home/claw/Desktop/Vox/install/vox/share/vox/environment/path.sh
+[0.966s] -- Symlinking: /home/claw/Desktop/Vox/install/vox/share/vox/environment/path.dsv
+[0.977s] -- Symlinking: /home/claw/Desktop/Vox/install/vox/share/vox/local_setup.bash
+[0.986s] -- Symlinking: /home/claw/Desktop/Vox/install/vox/share/vox/local_setup.sh
+[0.994s] -- Symlinking: /home/claw/Desktop/Vox/install/vox/share/vox/local_setup.zsh
+[1.003s] -- Symlinking: /home/claw/Desktop/Vox/install/vox/share/vox/local_setup.dsv
+[1.014s] -- Symlinking: /home/claw/Desktop/Vox/install/vox/share/vox/package.dsv
+[1.022s] -- Symlinking: /home/claw/Desktop/Vox/install/vox/share/ament_index/resource_index/packages/vox
+[1.030s] -- Symlinking: /home/claw/Desktop/Vox/install/vox/share/vox/cmake/voxConfig.cmake
+[1.041s] -- Symlinking: /home/claw/Desktop/Vox/install/vox/share/vox/cmake/voxConfig-version.cmake
+[1.053s] -- Symlinking: /home/claw/Desktop/Vox/install/vox/share/vox/package.xml
+[1.063s] Invoked command in '/home/claw/Desktop/Vox/build/vox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/claw/Desktop/Vox/build/vox

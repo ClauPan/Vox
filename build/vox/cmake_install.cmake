@@ -1,8 +1,8 @@
-# Install script for directory: /home/vox/Desktop/vox/src
+# Install script for directory: /home/claw/Desktop/Vox/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/vox/Desktop/vox/install/vox")
+  set(CMAKE_INSTALL_PREFIX "/home/claw/Desktop/Vox/install/vox")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/vox/Desktop/vox/build/vox/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/claw/Desktop/Vox/build/vox/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/vox/Desktop/vox/build/vox/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/claw/Desktop/Vox/build/vox/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,1 +1,0 @@
-/home/vox/Desktop/vox/src/launch/rso.launch.py
