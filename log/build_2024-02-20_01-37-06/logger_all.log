@@ -1,0 +1,124 @@
+[1.465s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[1.465s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f1d460364a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f1d464cac50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f1d464cac50>>)
+[1.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.561s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/claw/Desktop/Vox'
+[1.561s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.562s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.562s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.562s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.562s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.562s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.562s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.562s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.562s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.586s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.586s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.586s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.586s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.586s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.586s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.586s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.590s] DEBUG:colcon.colcon_core.package_identification:Package 'src' with type 'ros.ament_cmake' and name 'vox'
+[1.590s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.590s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.590s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.590s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.590s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.697s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.698s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.743s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 331 installed packages in /opt/ros/iron
+[1.744s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.895s] Level 5:colcon.colcon_core.verb:set package 'vox' build argument 'cmake_args' from command line to 'None'
+[1.895s] Level 5:colcon.colcon_core.verb:set package 'vox' build argument 'cmake_target' from command line to 'None'
+[1.895s] Level 5:colcon.colcon_core.verb:set package 'vox' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.895s] Level 5:colcon.colcon_core.verb:set package 'vox' build argument 'cmake_clean_cache' from command line to 'False'
+[1.895s] Level 5:colcon.colcon_core.verb:set package 'vox' build argument 'cmake_clean_first' from command line to 'False'
+[1.896s] Level 5:colcon.colcon_core.verb:set package 'vox' build argument 'cmake_force_configure' from command line to 'False'
+[1.896s] Level 5:colcon.colcon_core.verb:set package 'vox' build argument 'ament_cmake_args' from command line to 'None'
+[1.896s] Level 5:colcon.colcon_core.verb:set package 'vox' build argument 'catkin_cmake_args' from command line to 'None'
+[1.896s] Level 5:colcon.colcon_core.verb:set package 'vox' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.896s] DEBUG:colcon.colcon_core.verb:Building package 'vox' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/claw/Desktop/Vox/build/vox', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/claw/Desktop/Vox/install/vox', 'merge_install': False, 'path': '/home/claw/Desktop/Vox/src', 'symlink_install': True, 'test_result_base': None}
+[1.914s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.932s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.932s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/claw/Desktop/Vox/src' with build type 'ament_cmake'
+[1.933s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/claw/Desktop/Vox/src'
+[1.959s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.960s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.961s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.008s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/claw/Desktop/Vox/build/vox': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/claw/Desktop/Vox/build/vox -- -j2 -l2
+[2.204s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/claw/Desktop/Vox/build/vox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/claw/Desktop/Vox/build/vox -- -j2 -l2
+[2.270s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/claw/Desktop/Vox/build/vox': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/claw/Desktop/Vox/build/vox
+[2.367s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vox)
+[2.371s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/claw/Desktop/Vox/build/vox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/claw/Desktop/Vox/build/vox
+[2.408s] Level 1:colcon.colcon_core.environment:checking '/home/claw/Desktop/Vox/install/vox' for CMake module files
+[2.409s] Level 1:colcon.colcon_core.environment:checking '/home/claw/Desktop/Vox/install/vox' for CMake config files
+[2.409s] Level 1:colcon.colcon_core.shell:create_environment_hook('vox', 'cmake_prefix_path')
+[2.424s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/claw/Desktop/Vox/install/vox/share/vox/hook/cmake_prefix_path.ps1'
+[2.426s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/claw/Desktop/Vox/install/vox/share/vox/hook/cmake_prefix_path.dsv'
+[2.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/claw/Desktop/Vox/install/vox/share/vox/hook/cmake_prefix_path.sh'
+[2.428s] Level 1:colcon.colcon_core.environment:checking '/home/claw/Desktop/Vox/install/vox/bin'
+[2.429s] Level 1:colcon.colcon_core.environment:checking '/home/claw/Desktop/Vox/install/vox/lib/pkgconfig/vox.pc'
+[2.429s] Level 1:colcon.colcon_core.environment:checking '/home/claw/Desktop/Vox/install/vox/lib/python3.10/site-packages'
+[2.429s] Level 1:colcon.colcon_core.environment:checking '/home/claw/Desktop/Vox/install/vox/bin'
+[2.444s] INFO:colcon.colcon_core.shell:Creating package script '/home/claw/Desktop/Vox/install/vox/share/vox/package.ps1'
+[2.445s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/claw/Desktop/Vox/install/vox/share/vox/package.dsv'
+[2.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/claw/Desktop/Vox/install/vox/share/vox/package.sh'
+[2.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/claw/Desktop/Vox/install/vox/share/vox/package.bash'
+[2.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/claw/Desktop/Vox/install/vox/share/vox/package.zsh'
+[2.451s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/claw/Desktop/Vox/install/vox/share/colcon-core/packages/vox)
+[2.505s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vox)
+[2.519s] Level 1:colcon.colcon_core.environment:checking '/home/claw/Desktop/Vox/install/vox' for CMake module files
+[2.520s] Level 1:colcon.colcon_core.environment:checking '/home/claw/Desktop/Vox/install/vox' for CMake config files
+[2.520s] Level 1:colcon.colcon_core.shell:create_environment_hook('vox', 'cmake_prefix_path')
+[2.540s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/claw/Desktop/Vox/install/vox/share/vox/hook/cmake_prefix_path.ps1'
+[2.541s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/claw/Desktop/Vox/install/vox/share/vox/hook/cmake_prefix_path.dsv'
+[2.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/claw/Desktop/Vox/install/vox/share/vox/hook/cmake_prefix_path.sh'
+[2.543s] Level 1:colcon.colcon_core.environment:checking '/home/claw/Desktop/Vox/install/vox/bin'
+[2.543s] Level 1:colcon.colcon_core.environment:checking '/home/claw/Desktop/Vox/install/vox/lib/pkgconfig/vox.pc'
+[2.544s] Level 1:colcon.colcon_core.environment:checking '/home/claw/Desktop/Vox/install/vox/lib/python3.10/site-packages'
+[2.544s] Level 1:colcon.colcon_core.environment:checking '/home/claw/Desktop/Vox/install/vox/bin'
+[2.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/claw/Desktop/Vox/install/vox/share/vox/package.ps1'
+[2.561s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/claw/Desktop/Vox/install/vox/share/vox/package.dsv'
+[2.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/claw/Desktop/Vox/install/vox/share/vox/package.sh'
+[2.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/claw/Desktop/Vox/install/vox/share/vox/package.bash'
+[2.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/claw/Desktop/Vox/install/vox/share/vox/package.zsh'
+[2.565s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/claw/Desktop/Vox/install/vox/share/colcon-core/packages/vox)
+[2.566s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.566s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.567s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.567s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.608s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.609s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.609s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.919s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.944s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/claw/Desktop/Vox/install/local_setup.ps1'
+[2.947s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/claw/Desktop/Vox/install/_local_setup_util_ps1.py'
+[2.949s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/claw/Desktop/Vox/install/setup.ps1'
+[2.973s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/claw/Desktop/Vox/install/local_setup.sh'
+[2.975s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/claw/Desktop/Vox/install/_local_setup_util_sh.py'
+[2.976s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/claw/Desktop/Vox/install/setup.sh'
+[3.012s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/claw/Desktop/Vox/install/local_setup.bash'
+[3.014s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/claw/Desktop/Vox/install/setup.bash'
+[3.041s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/claw/Desktop/Vox/install/local_setup.zsh'
+[3.043s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/claw/Desktop/Vox/install/setup.zsh'

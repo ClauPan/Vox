@@ -1,4 +1,5 @@
 /home/claw/Desktop/Vox/install/vox/share/vox/config/empty.yaml
+/home/claw/Desktop/Vox/install/vox/share/vox/config/gazebo_params.yaml
 /home/claw/Desktop/Vox/install/vox/share/vox/config/my_controllers.yaml
 /home/claw/Desktop/Vox/install/vox/share/vox/config/x.rviz
 /home/claw/Desktop/Vox/install/vox/share/vox/description/camera.xacro
