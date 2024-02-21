@@ -31,12 +31,13 @@ def generate_launch_description():
 		package="controller_manager",
 		executable="spawner",
 		arguments=["diff_cont"],
-		)
+	)
+	
 	joint_broad_spawner = Node(
 		package="controller_manager",
 		executable="spawner",
 		arguments=["joint_broad"],
-		)
+	)
 
 	return LaunchDescription([
 		rsp, 
@@ -44,4 +45,4 @@ def generate_launch_description():
 		spawn_entity,
 		diff_drive_spawner,
 		joint_broad_spawner
-		])
+	])

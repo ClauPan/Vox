@@ -1,2 +1,0 @@
-Invoking command in '/home/claw/Desktop/Vox/build/vox': /usr/bin/cmake /home/claw/Desktop/Vox/src -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/claw/Desktop/Vox/install/vox
-Invoked command in '/home/claw/Desktop/Vox/build/vox' returned '1': /usr/bin/cmake /home/claw/Desktop/Vox/src -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/claw/Desktop/Vox/install/vox
