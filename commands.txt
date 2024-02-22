@@ -11,7 +11,7 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/di
 ### run the slam toolbox simulation DIFFERENT TERMINAL
 CHECK LINE 23 IN CONFIG/MAPPER_PARAMS_ONLINE AND CHANGE THE DIRECTORY NAME
 
-ros2 launch slam_toolbox online_async_launch.py params_file:=./src/config/mapper_params_online_async.yaml use_sim_time:=true
+ros2 launch slam_toolbox online_async_launch.py slam_params_file:=./src/config/mapper_params_online_async.yaml use_sim_time:=true
 
 ### run nav2 DIFFERENT TERMINAL
 ros2 run nav2_util lifecycle_bringup map_server
