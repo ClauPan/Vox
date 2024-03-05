@@ -14,6 +14,7 @@
 /home/vox/Desktop/Vox/install/vox/share/vox/description/ros2_control.xacro
 /home/vox/Desktop/Vox/install/vox/share/vox/launch/joystick.launch.py
 /home/vox/Desktop/Vox/install/vox/share/vox/launch/launch_sim.launch.py
+/home/vox/Desktop/Vox/install/vox/share/vox/launch/launch_sim_no_joystick.launch.py
 /home/vox/Desktop/Vox/install/vox/share/vox/launch/rsp.launch.py
 /home/vox/Desktop/Vox/install/vox/share/vox/worlds/sim.world
 /home/vox/Desktop/Vox/install/vox/share/ament_index/resource_index/package_run_dependencies/vox
